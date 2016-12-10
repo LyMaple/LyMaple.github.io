@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+    
+    
+    
+    
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/02/%E5%B0%81%E8%A3%85%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84jQuery%E5%BA%931/</loc>
+    <lastmod>2016-11-26T03:30:08.697Z</lastmod>
+    <data>
+        <display>
+        <title>封装一个属于自己的jQuery库（1）</title>
+        <pubTime>2016-04-01T16:00:00.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+        <tag>jQuery源码解析</tag>
+         
+        <tag>封装jQuery库</tag>
+         
+        <tag>js</tag>
+         
+         
+           
+             
+              <breadCrumb title="js" url="http://yoursite.com/categories/js/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2015/05/23/MarkDown%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2016-11-25T11:13:07.408Z</lastmod>
+    <data>
+        <display>
+        <title>Markdown 简明语法手册</title>
+        <pubTime>2015-05-22T16:00:00.000Z</pubTime>
+        
+        <tag>Markdown</tag>
+         
+         
+           
+             
+              <breadCrumb title="markdown" url="http://yoursite.com/categories/markdown/"/>
+          
+        </display>
+    </data>
+    </url>
+
+</urlset>
