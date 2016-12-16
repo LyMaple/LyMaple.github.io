@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Markdown," />
+  <meta name="keywords" content="js,es6," />
 
 
 
@@ -84,36 +84,42 @@
 
 
 
-<meta name="description" content="Markdown 简明语法手册
-1. 斜体和粗体使用  和 * 表示斜体和粗体。
-示例：
-这是 斜体，这是 粗体。
-2. 分级标题使用 === 表示一级标题，使用 — 表示二级标题。
-示例：
-1234567这是一个一级标题============================这是一个二级标题--------------------------------------------------###">
+<meta name="description" content="1. let
+使用 let 定义变量不能重复定义，否则报错
+let 定义的变量没有变量提升
+块级作用域(只在定义的当前代码块有效)
+在 es6 之前,如果使用 for 循环,定义的 i 在循环之后,会变成全局变量,使用 let 可以很好的解决
+
+
+
+1234567891011121314151617181920212223//变量名不会提升console.log(a) // 报错let a = &apos;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Markdown 简明语法手册">
-<meta property="og:url" content="http://lyblog.xyz/2015/05/23/MarkDown使用/index.html">
+<meta property="og:title" content="es6 中比较常用的语法">
+<meta property="og:url" content="http://lyblog.xyz/2016/07/02/es6中常用的/index.html">
 <meta property="og:site_name" content="枫起叶落">
-<meta property="og:description" content="Markdown 简明语法手册
-1. 斜体和粗体使用  和 * 表示斜体和粗体。
-示例：
-这是 斜体，这是 粗体。
-2. 分级标题使用 === 表示一级标题，使用 — 表示二级标题。
-示例：
-1234567这是一个一级标题============================这是一个二级标题--------------------------------------------------###">
-<meta property="og:image" content="https://www.zybuluo.com/static/img/my_head.jpg">
-<meta property="og:updated_time" content="2016-11-25T11:13:07.408Z">
+<meta property="og:description" content="1. let
+使用 let 定义变量不能重复定义，否则报错
+let 定义的变量没有变量提升
+块级作用域(只在定义的当前代码块有效)
+在 es6 之前,如果使用 for 循环,定义的 i 在循环之后,会变成全局变量,使用 let 可以很好的解决
+
+
+
+1234567891011121314151617181920212223//变量名不会提升console.log(a) // 报错let a = &apos;">
+<meta property="og:image" content="http://lyblog.xyz/images/2.png">
+<meta property="og:updated_time" content="2016-12-16T13:02:57.970Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Markdown 简明语法手册">
-<meta name="twitter:description" content="Markdown 简明语法手册
-1. 斜体和粗体使用  和 * 表示斜体和粗体。
-示例：
-这是 斜体，这是 粗体。
-2. 分级标题使用 === 表示一级标题，使用 — 表示二级标题。
-示例：
-1234567这是一个一级标题============================这是一个二级标题--------------------------------------------------###">
-<meta name="twitter:image" content="https://www.zybuluo.com/static/img/my_head.jpg">
+<meta name="twitter:title" content="es6 中比较常用的语法">
+<meta name="twitter:description" content="1. let
+使用 let 定义变量不能重复定义，否则报错
+let 定义的变量没有变量提升
+块级作用域(只在定义的当前代码块有效)
+在 es6 之前,如果使用 for 循环,定义的 i 在循环之后,会变成全局变量,使用 let 可以很好的解决
+
+
+
+1234567891011121314151617181920212223//变量名不会提升console.log(a) // 报错let a = &apos;">
+<meta name="twitter:image" content="http://lyblog.xyz/images/2.png">
 
 
 
@@ -141,13 +147,13 @@
 
 
 
-  <link rel="canonical" href="http://lyblog.xyz/2015/05/23/MarkDown使用/"/>
+  <link rel="canonical" href="http://lyblog.xyz/2016/07/02/es6中常用的/"/>
 
 
 
 
 
-  <title> Markdown 简明语法手册 | 枫起叶落 </title>
+  <title> es6 中比较常用的语法 | 枫起叶落 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -278,7 +284,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://lyblog.xyz/2015/05/23/MarkDown使用/">
+  <link itemprop="mainEntityOfPage" href="http://lyblog.xyz/2016/07/02/es6中常用的/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="Ly">
@@ -302,7 +308,7 @@
             
             
               
-                Markdown 简明语法手册
+                es6 中比较常用的语法
               
             
           </h1>
@@ -315,8 +321,8 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-05-23T00:00:00+08:00">
-                2015-05-23
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-07-02T00:00:00+08:00">
+                2016-07-02
               </time>
             
 
@@ -334,8 +340,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/markdown/" itemprop="url" rel="index">
-                    <span itemprop="name">markdown</span>
+                  <a href="/categories/es6/" itemprop="url" rel="index">
+                    <span itemprop="name">es6</span>
                   </a>
                 </span>
 
@@ -349,8 +355,8 @@
             
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
-                <a href="/2015/05/23/MarkDown使用/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/05/23/MarkDown使用/" itemprop="commentCount"></span>
+                <a href="/2016/07/02/es6中常用的/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/07/02/es6中常用的/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -360,7 +366,7 @@
 
           
           
-             <span id="/2015/05/23/MarkDown使用/" class="leancloud_visitors" data-flag-title="Markdown 简明语法手册">
+             <span id="/2016/07/02/es6中常用的/" class="leancloud_visitors" data-flag-title="es6 中比较常用的语法">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -385,47 +391,52 @@
       
 
       
-        <h1 id="Markdown-简明语法手册"><a href="#Markdown-简明语法手册" class="headerlink" title="Markdown 简明语法手册"></a>Markdown 简明语法手册</h1><hr>
-<h3 id="1-斜体和粗体"><a href="#1-斜体和粗体" class="headerlink" title="1. 斜体和粗体"></a>1. 斜体和粗体</h3><p>使用 <em> 和 *</em> 表示斜体和粗体。</p>
-<p>示例：</p>
-<p>这是 <em>斜体</em>，这是 <strong>粗体</strong>。</p>
-<h3 id="2-分级标题"><a href="#2-分级标题" class="headerlink" title="2. 分级标题"></a>2. 分级标题</h3><p>使用 === 表示一级标题，使用 — 表示二级标题。</p>
-<p>示例：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">这是一个一级标题</div><div class="line">============================</div><div class="line"></div><div class="line">这是一个二级标题</div><div class="line">--------------------------------------------------</div><div class="line"></div><div class="line">### 这是一个三级标题</div></pre></td></tr></table></figure>
-<p>你也可以选择在行首加井号表示不同级别的标题 (H1-H6)，例如：# H1, ## H2, ### H3，#### H4。<br><a id="more"></a></p>
-<h3 id="3-外链接"><a href="#3-外链接" class="headerlink" title="3. 外链接"></a>3. 外链接</h3><p>使用 [描述](链接地址) 为文字增加外链接。</p>
-<p>示例：</p>
-<p>这是去往 <a href="#">本人博客</a> 的链接。</p>
-<h3 id="4-无序列表"><a href="#4-无序列表" class="headerlink" title="4. 无序列表"></a>4. 无序列表</h3><p>使用 *，+，- 表示无序列表。</p>
-<p>示例：</p>
-<ul>
-<li>无序列表项 一</li>
-<li>无序列表项 二</li>
-<li>无序列表项 三</li>
+        <h2 id="1-let"><a href="#1-let" class="headerlink" title="1. let"></a>1. let</h2><ul>
+<li>使用 let 定义变量不能重复定义，否则报错</li>
+<li>let 定义的变量没有变量提升</li>
+<li>块级作用域(只在定义的当前代码块有效)<ul>
+<li>在 es6 之前,如果使用 for 循环,定义的 i 在循环之后,会变成全局变量,使用 let 可以很好的解决</li>
 </ul>
-<h3 id="5-有序列表"><a href="#5-有序列表" class="headerlink" title="5. 有序列表"></a>5. 有序列表</h3><p>使用数字和点表示有序列表。</p>
-<p>示例：</p>
-<ol>
-<li>有序列表项 一</li>
-<li>有序列表项 二</li>
-<li>有序列表项 三</li>
-</ol>
-<h3 id="6-文字引用"><a href="#6-文字引用" class="headerlink" title="6. 文字引用"></a>6. 文字引用</h3><p>使用 &gt; 表示文字引用。</p>
-<p>示例：</p>
-<blockquote>
-<p>野火烧不尽，春风吹又生。</p>
-</blockquote>
-<h3 id="7-行内代码块"><a href="#7-行内代码块" class="headerlink" title="7. 行内代码块"></a>7. 行内代码块</h3><p>使用 `代码` 表示行内代码块。</p>
-<p>示例：</p>
-<p>让我们聊聊 <code>html</code>。</p>
-<h3 id="8-代码块"><a href="#8-代码块" class="headerlink" title="8.  代码块"></a>8.  代码块</h3><p>使用 四个缩进空格 或者 ```这里写代码 ``` 表示代码块。</p>
-<p>示例：</p>
-<pre><code>这是一个代码块，此行左侧有四个不可见的空格。
-</code></pre><h3 id="9-插入图像"><a href="#9-插入图像" class="headerlink" title="9.  插入图像"></a>9.  插入图像</h3><p>使用 ![描述](图片链接地址) 插入图像。</p>
-<p>示例：</p>
-<p><img src="https://www.zybuluo.com/static/img/my_head.jpg" alt="我的头像"></p>
-<h3 id="10-插入空行"><a href="#10-插入空行" class="headerlink" title="10.  插入空行"></a>10.  插入空行</h3><p>使用 # + &amp;  ensp; 去掉&amp;后面的空格即可</p>
-<p>参考自:   <a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown" target="_blank" rel="external">Markdown 帮助文档</a></p>
+</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//变量名不会提升</span></div><div class="line"><span class="built_in">console</span>.log(a) <span class="comment">// 报错</span></div><div class="line"><span class="keyword">let</span> a = <span class="string">'xixi'</span></div><div class="line"></div><div class="line"><span class="comment">//解决for循环,i变成全局变量的问题</span></div><div class="line"><span class="keyword">for</span> (<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++) &#123;</div><div class="line"></div><div class="line">&#125;</div><div class="line"><span class="built_in">console</span>.log(i) <span class="comment">// 报错</span></div><div class="line"></div><div class="line"><span class="comment">//只在当前作用域有效</span></div><div class="line"><span class="keyword">if</span> (<span class="literal">true</span>) &#123;</div><div class="line">  <span class="keyword">let</span> foo = <span class="string">'first'</span></div><div class="line">  <span class="keyword">if</span> (<span class="literal">true</span>) &#123;</div><div class="line">    <span class="keyword">let</span> foo = <span class="string">'second'</span></div><div class="line">    <span class="keyword">if</span> (<span class="literal">true</span>) &#123;</div><div class="line">      <span class="keyword">let</span> foo = <span class="string">'third'</span></div><div class="line">      <span class="built_in">console</span>.log(foo)</div><div class="line">    &#125;</div><div class="line">    <span class="built_in">console</span>.log(foo)</div><div class="line">  &#125;</div><div class="line">  <span class="built_in">console</span>.log(foo)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="2-const"><a href="#2-const" class="headerlink" title="2. const"></a>2. const</h2><ul>
+<li>使用 const 定义常量不能重复定义，否则报错</li>
+<li>const 定义的变量没有变量提升</li>
+<li>块级作用域(只在定义的当前代码块有效)</li>
+<li>定义的同时必须赋值，否则报错</li>
+</ul>
+<h3 id="2-1-let-和-const-不同"><a href="#2-1-let-和-const-不同" class="headerlink" title="2.1 let 和 const 不同"></a>2.1 let 和 const 不同</h3><ul>
+<li>定义的同时必须赋值，否则报错</li>
+<li>const 用来定义常量, let 用来定义变量</li>
+</ul>
+<h3 id="2-2-注意"><a href="#2-2-注意" class="headerlink" title="2.2 注意"></a>2.2 注意</h3><ul>
+<li>能用 const 别用 let</li>
+<li>全部使用 const 如果代码报错了再改成 let</li>
+</ul>
+<h2 id="3-String"><a href="#3-String" class="headerlink" title="3. String"></a>3. String</h2><ul>
+<li>如果有字符串拼接, 就使用 es6 模板字符串–用2个`( Esc 键下面的)将要拼接的字符串包起来</li>
+<li>如果没有字符串拼接, 还是用 ‘ 或者 “</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">const</span> str = <span class="string">`</span></div><div class="line">&lt;ul&gt;</div><div class="line">	&lt;li&gt;1&lt;/li&gt;</div><div class="line">	&lt;li&gt;2&lt;/li&gt;</div><div class="line">	&lt;li&gt;3&lt;/li&gt;</div><div class="line">	&lt;li&gt;4&lt;/li&gt;</div><div class="line">	&lt;li&gt;5&lt;/li&gt;</div><div class="line">&lt;/ul&gt;</div><div class="line">`</div><div class="line"><span class="built_in">console</span>.log(str)</div></pre></td></tr></table></figure>
+<p><img src="images/2.png" alt="结果">    </p>
+<h2 id="4-Array"><a href="#4-Array" class="headerlink" title="4. Array"></a>4. Array</h2><ul>
+<li>Array.from() 将伪数组变成真数组<ul>
+<li>处理 dom 时常用, 比如querySelectorAll() 获取的是伪数组对象</li>
+</ul>
+</li>
+<li>Array.prototype.find() 数组实例上的方法, 即数组原型上的方法, 找出第一个符合条件的数组成员并返回, 没找到返回 undefined</li>
+<li>Array.prototype.includes()返回一个布尔值, 表示某个数组是否包含给定的值</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//Array.from()</span></div><div class="line"><span class="keyword">const</span> arrayLike = &#123;</div><div class="line">    <span class="string">'0'</span>: <span class="string">'aaa'</span>,</div><div class="line">    <span class="string">'1'</span>: <span class="string">'bbb'</span>,</div><div class="line">    <span class="string">'2'</span>: <span class="string">'ccc'</span>,</div><div class="line">    <span class="string">'3'</span>: <span class="string">'ddd'</span>,</div><div class="line">    <span class="attr">length</span>: <span class="number">4</span></div><div class="line">&#125;;</div><div class="line"></div><div class="line"><span class="comment">// ES5的写法</span></div><div class="line"><span class="keyword">var</span> arr1 = [].slice.call(arrayLike) <span class="comment">// ['a', 'b', 'c', 'd']</span></div><div class="line"></div><div class="line"><span class="comment">// ES6的写法</span></div><div class="line"><span class="keyword">let</span> arr2 = <span class="built_in">Array</span>.from(arrayLike) <span class="comment">// ['a', 'b', 'c', 'd']</span></div><div class="line"></div><div class="line"><span class="comment">//arr.find() </span></div><div class="line"><span class="keyword">const</span> arr = [</div><div class="line">  &#123; <span class="attr">name</span>: <span class="string">'aaa'</span>, <span class="attr">age</span>: <span class="number">20</span> &#125;,</div><div class="line">  &#123; <span class="attr">name</span>: <span class="string">'bbb'</span>, <span class="attr">age</span>: <span class="number">21</span> &#125;,</div><div class="line">  &#123; <span class="attr">name</span>: <span class="string">'ccc'</span>, <span class="attr">age</span>: <span class="number">22</span> &#125;,</div><div class="line">  &#123; <span class="attr">name</span>: <span class="string">'ddd'</span>, <span class="attr">age</span>: <span class="number">23</span> &#125;</div><div class="line">]</div><div class="line"></div><div class="line"><span class="keyword">const</span> find1 = arr.find(<span class="function"><span class="keyword">function</span> (<span class="params">val</span>) </span>&#123;</div><div class="line">	<span class="keyword">return</span> val.age &lt; <span class="number">22</span></div><div class="line">&#125;)</div><div class="line"></div><div class="line"><span class="built_in">console</span>.log(find1) <span class="comment">//&#123; name: 'aaa', age: 20 &#125;</span></div><div class="line"></div><div class="line"><span class="comment">//arr.includes</span></div><div class="line"><span class="built_in">console</span>.log(arr.includes(p)) <span class="comment">//true</span></div></pre></td></tr></table></figure>
+<h2 id="5-箭头函数-lambda-表达式"><a href="#5-箭头函数-lambda-表达式" class="headerlink" title="5. 箭头函数-lambda 表达式"></a>5. 箭头函数-lambda 表达式</h2><ul>
+<li>如果箭头函数不需要参数或需要多个参数, 就使用一个圆括号代表参数部分</li>
+<li>如果箭头函数的代码块部分等于一条语句, 可以省略大括号, 并且箭头后面表达式就是返回值</li>
+<li>如果箭头函数的代码块部分多于一条语句, 就要使用大括号将它们括起来, 并且使用 return 语句返回</li>
+<li>箭头函数中的 this 指向的就是定义的环境<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line">var f = () =&gt; 5;</div><div class="line">// 等同于</div><div class="line">var f = function () &#123; return 5 &#125;;</div><div class="line"></div><div class="line">var sum = (num1, num2) =&gt; num1 + num2;</div><div class="line">// 等同于</div><div class="line">var sum = function(num1, num2) &#123;</div><div class="line">  return num1 + num2;</div><div class="line">&#125;;</div><div class="line"></div><div class="line">// this 指向问题</div><div class="line">function Product(price) &#123;</div><div class="line">  this.price = price</div><div class="line">&#125;</div><div class="line"></div><div class="line">Product.prototype.showPrice = function () &#123;</div><div class="line">  setTimeout(function () &#123;</div><div class="line">    console.log(this.price)</div><div class="line">  &#125;, 1000)</div><div class="line">&#125;</div><div class="line"></div><div class="line">var p = new Product(200)</div><div class="line">p.showPrice() // undefined</div><div class="line"></div><div class="line">//Product.prototype 改成下面的</div><div class="line">Product.prototype.showPrice = function () &#123;</div><div class="line">  setTimeout(() =&gt; &#123;</div><div class="line">  	// 箭头函数中的 this 指向的就是定义的环境</div><div class="line">    console.log(this.price)</div><div class="line">  &#125;, 1000)</div><div class="line">&#125;</div><div class="line">var p = new Product(200)</div><div class="line">p.showPrice() // 200</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>参考: <a href="http://es6.ruanyifeng.com/" target="_blank" rel="external">ECMAScript 6 入门</a></p>
 
       
     </div>
@@ -449,7 +460,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Markdown/" rel="tag"># Markdown</a>
+            <a href="/tags/js/" rel="tag"># js</a>
+          
+            <a href="/tags/es6/" rel="tag"># es6</a>
           
         </div>
       
@@ -458,15 +471,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/04/02/封装一个属于自己的jQuery库1/" rel="next" title="封装一个属于自己的jQuery库（1）">
+                <i class="fa fa-chevron-left"></i> 封装一个属于自己的jQuery库（1）
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/04/02/封装一个属于自己的jQuery库1/" rel="prev" title="封装一个属于自己的jQuery库（1）">
-                封装一个属于自己的jQuery库（1） <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -492,8 +505,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2015/05/23/MarkDown使用/"
-           data-title="Markdown 简明语法手册" data-url="http://lyblog.xyz/2015/05/23/MarkDown使用/">
+      <div class="ds-thread" data-thread-key="2016/07/02/es6中常用的/"
+           data-title="es6 中比较常用的语法" data-url="http://lyblog.xyz/2016/07/02/es6中常用的/">
       </div>
     
   </div>
@@ -610,7 +623,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Markdown-简明语法手册"><span class="nav-text">Markdown 简明语法手册</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-斜体和粗体"><span class="nav-text">1. 斜体和粗体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-分级标题"><span class="nav-text">2. 分级标题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-外链接"><span class="nav-text">3. 外链接</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-无序列表"><span class="nav-text">4. 无序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-有序列表"><span class="nav-text">5. 有序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-文字引用"><span class="nav-text">6. 文字引用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-行内代码块"><span class="nav-text">7. 行内代码块</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-代码块"><span class="nav-text">8.  代码块</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#9-插入图像"><span class="nav-text">9.  插入图像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#10-插入空行"><span class="nav-text">10.  插入空行</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-let"><span class="nav-text">1. let</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-const"><span class="nav-text">2. const</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-let-和-const-不同"><span class="nav-text">2.1 let 和 const 不同</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-注意"><span class="nav-text">2.2 注意</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-String"><span class="nav-text">3. String</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-Array"><span class="nav-text">4. Array</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-箭头函数-lambda-表达式"><span class="nav-text">5. 箭头函数-lambda 表达式</span></a></li></ol></div>
             
 
           </div>

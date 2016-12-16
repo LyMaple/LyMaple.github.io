@@ -3,26 +3,43 @@
 
 
     
-    
-    
-    
-    
+  <url>
+    <loc>http://lyblog.xyz/2016/07/02/es6%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84/</loc>
+    <lastmod>2016-12-16T13:02:57.970Z</lastmod>
+    <data>
+        <display>
+        <title>es6 中比较常用的语法</title>
+        <pubTime>2016-07-01T16:00:00.000Z</pubTime>
+        
+        <tag>js</tag>
+         
+        <tag>es6</tag>
+         
+         
+           
+             
+              <breadCrumb title="es6" url="http://lyblog.xyz/categories/es6/"/>
+          
+        </display>
+    </data>
+    </url>
+
     
   <url>
     <loc>http://lyblog.xyz/2016/04/02/%E5%B0%81%E8%A3%85%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84jQuery%E5%BA%931/</loc>
-    <lastmod>2016-11-26T03:30:08.697Z</lastmod>
+    <lastmod>2016-12-15T12:50:53.545Z</lastmod>
     <data>
         <display>
         <title>封装一个属于自己的jQuery库（1）</title>
         <pubTime>2016-04-01T16:00:00.000Z</pubTime>
         
+        <tag>js</tag>
+         
         <tag>JavaScript</tag>
          
         <tag>jQuery源码解析</tag>
          
         <tag>封装jQuery库</tag>
-         
-        <tag>js</tag>
          
          
            
@@ -33,6 +50,11 @@
     </data>
     </url>
 
+    
+    
+    
+    
+    
     
   <url>
     <loc>http://lyblog.xyz/2015/05/23/MarkDown%E4%BD%BF%E7%94%A8/</loc>
